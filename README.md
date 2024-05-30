@@ -18,7 +18,7 @@ This method is suitable when you have ongoing changes that are not ready to be c
 
 ### Commit first
 
-```
+```git
 git add .
 git commit -m "msg"
 git pull origin <branch_name>
@@ -29,3 +29,22 @@ This method is suitable when your changes are complete and ready to be committed
 ---
 
 In summary, use the first method when your changes are not ready to be committed, and use the second method when your changes are ready to be committed.
+
+## Divergent Branch Error
+
+The message you may see that your local branch and the remote branch have diverged, means they have commits that the other doesn't have. This can happen if you've made commits on your local branch that aren't on the remote branch, or if someone else has pushed commits to the remote branch that you haven't pulled yet.
+
+In such case, always first try:
+
+```git
+git pull --rebase origin <branch_name>
+```
+
+otherwise, 
+
+> ![NOTE]
+> YET TO EXPERIMENT THIS
+
+```git
+git merge origin/<branch_name>
+```
