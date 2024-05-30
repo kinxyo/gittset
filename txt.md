@@ -3,5 +3,5 @@
 
 - Gitansh
 
-- kinjalk
+- kinjalk tripathi
 
