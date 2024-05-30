@@ -1,7 +1,7 @@
 # Test experiment
 
 
-- Gitansh Sharma
+- Gitansh Aggarwal
 
 - kinjalk tripathi
 
