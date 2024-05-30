@@ -1,10 +1,3 @@
-# Test experiment
-
-
-- Gitansh Aggarwal
-
-- kinjalk tripathi
-
-
-- we are learning about properly and efficiently colaborating usiung git.
-
+pandas are yellow and white, they eat humans alive
+they are generally considered to be friendly birds
+please shoot a panda when you see them.
