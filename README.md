@@ -42,8 +42,8 @@ git pull --rebase origin <branch_name>
 
 otherwise, 
 
-> ![NOTE]
-> YET TO EXPERIMENT THIS
+> [!NOTE]
+> Yet to experiment.
 
 ```git
 git merge origin/<branch_name>
